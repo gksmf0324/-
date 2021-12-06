@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: #d2d2d2; */
+    
+}
+.container-full{
+    width: 100%;
+    background-color: #fff;
+}
+
+.container{
+    max-width: 1150px;
+    margin: 0 auto;
+    /* background-color: #fff; */
+    box-sizing: border-box; /*border 값까지 포함해서 박스사이즈를 지정합니다*/
+}
+
+header {
+    min-height: 80px;
+    padding: 10px 20px 0;
+}
+
+header a.logo{
+    float: left;
+    margin-top: 8px;
+}
+
+header a.logo img{
+    width: 25%;
+}
+
+header ul{
+    list-style: none;
+    float: right;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #3d3d3d;
+    padding: 0 5px;
+    margin: 0 10px;
+    width: 100px;
+}
+
+header ul li a:hover{
+    padding-bottom: 8px;
+    border-bottom: 3px solid #ff4e00;
+    color: #ff4e00;
+}
+
+.main-img{
+    height: 400px;
+    overflow: hidden;
+    background: url(../img/배경.jpg) top center no-repeat; /*no-repeat : 이미지를 반복하지 x*/
+    background-size: cover;
+}
+
+.text-box{
+    position: relative;
+    float: right;
+    right: 50px;
+    top: 100px;
+    padding: 10px 25px;
+    width: 45%;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 8px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+}
+
+.text-center{
+    text-align: center;
+}
+
+.row{
+    padding: 10px;
+    overflow: hidden;
+
+}
+
+.col-3{
+    width: 33.333333333%;
+    float: left;
+}
+
+.v250{
+    height: 250px;/*높이지정*/
+    display: flex; /*flex 속성지정*/
+    flex-direction: column; /* flex 방향지정*/
+    justify-content: normal; /*콘텐츠 정렬*/
+}
+
+.v250 h2{
+    font-size: 1.85rem;
+    font-weight: normal;
+}
+
+.v250 p{
+    font-size: 1rem;
+    margin: 0;
+    padding-bottom: 0.5rem;
+    
+}
+
+.img-part figure img{
+    width: 300px;
+}
+
+.img-part figcaption{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.img-part figure .circle{
+    width: 200px; /*둥근 테두리 넓이 설정*/
+    height: 200px; /*둥근 테두리 높이 설정 */
+    border-radius: 50%; /* 50% 적용하면 원이됨 */
+    overflow: hidden; /* 원 이외에 다른부분은 감추기 */
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.gray-back{
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    box-sizing: border-box; /* box-sizing 에 의한 크기고정*/
+    overflow: hidden; /* 이는 배경 색상이 적용되지 않을경우*/
+}
+
+.icon-box{
+    width: 25%; /* 전체를 4등분하므로*/
+    float: left; /* 왼쪽으로 float*/
+    text-align: center; /* 중간정렬*/
+
+}
+
+.icon-box i{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #c9c9c9;
+    margin: auto;
+}
+
+/* .v250,
+.v350{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.v350{
+    height: 350px;
+
+}
+.v250 h2,
+.v350 h2  {
+    font-size: 1.85rem;
+    font-weight: normal;
+} */
+
+footer{
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footlogo{
+    padding-left: 10px;
+    padding-top: 15px;
+
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    display: inline-block;
+    padding-left: 15px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #999;
+}
+
+footer ul li a:hover{
+    color: orange;
+}
+
+.footlogo{}
+
